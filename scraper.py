@@ -1,6 +1,5 @@
 """
-scraper.py — Récupère le prix m² Grande Rue, Le Plessis-Robinson
-sur MeilleursAgents et l'ajoute au fichier data/prices.csv
+scraper.py — Récupère le prix m² sur MeilleursAgents et l'ajoute au fichier data/prices.csv
 """
 
 import csv
@@ -12,7 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Configuration ─────────────────────────────────────────────────────────────
-URL = "https://www.meilleursagents.com/prix-immobilier/le-plessis-robinson-92350/grande-rue-2004252/"
+URL = os.environ["TARGET_URL"]
 CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "prices.csv")
 HEADERS = {
     "User-Agent": (

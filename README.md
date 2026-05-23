@@ -1,4 +1,4 @@
-# 🏠 Immo Tracker — Grande Rue, Le Plessis-Robinson
+# 🏠 Immo Tracker
 
 Suit automatiquement le prix du m² sur MeilleursAgents et envoie un rapport
 par email avec une courbe tous les 3 mois. Fonctionne 100% via GitHub Actions —
