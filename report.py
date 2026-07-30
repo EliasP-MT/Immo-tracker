@@ -22,7 +22,6 @@ from datetime import datetime
 GMAIL_USER   = os.environ["GMAIL_USER"]       # ex: moncompte@gmail.com
 GMAIL_PASS   = os.environ["GMAIL_APP_PASS"]   # mot de passe d'application Gmail
 EMAIL_TO     = os.environ["EMAIL_TO"]         # adresse destinataire
-TARGET_URL   = os.environ["TARGET_URL"]       # URL de la page cible
 
 CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "prices.csv")
 ADRESSE  = "Mettre l'adresse ou la ville ciblée ici"  # ex: "Paris 15e"
